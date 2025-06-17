@@ -39,7 +39,7 @@ dependencies = [
     "Pyro4",
     "xmltodict",
     "pyrender==0.1.25",
-    "pyglet",
+    "pyglet==1.5.27",
     "imgui",
     "pyopengl",
     "ray",
@@ -66,7 +66,3 @@ readme = { file = "README.md" }
 
 [tool.pytest.ini_options]
 addopts = ["--import-mode=importlib"]
-
-[[tool.poetry.source]]
-name = "ali"
-url = "https://mirrors.aliyun.com/pypi/simple/"
